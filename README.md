@@ -1,7 +1,7 @@
 # buddhism
 A dictionary of buddism
 
-Buddhism is a religion found by the Buddha more than 2566 years ago, or around 543 B.C., after he achived enlightenment through spiritual self-training. His teaching is call Dhamma, recorded by his noble pulpils in textbooks call Tripridaka.
+Buddhism is a religion found by the Buddha more than 2566 years ago, or around 543 B.C., after he achived enlightenment through spiritual self-training. His teaching is called Dhamma, recorded by his noble pulpils in textbooks call Tripridaka.
 
 Dhamma describes the hardest-to-solve problem, the root cause, the right goal, and the right solution.
 
