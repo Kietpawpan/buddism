@@ -1,5 +1,6 @@
 # buddhism
-ผู้ใดเห็น[ปฏิจจสมุปบาท](https://kietpawpan.github.io/buddhism/truth.html) ผู้นั้นเห็นธรรม
+ผู้ใดเห็น[ปฏิจจสมุปบาท](https://kietpawpan.github.io/buddism/truth.html) ผู้นั้นเห็นธรรม
+
 ```mermaid
 
 flowchart TD
