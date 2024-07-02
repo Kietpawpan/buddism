@@ -37,17 +37,3 @@ S1[ธาตุดิน ธาตุน้ำ ธาตุไฟ ธาตุ�
 D1-->Q
 G-->V3[เวทนา ๓]-->D1
 ```
-
-
-
-         
-
-    <script type="module">
-      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-      mermaid.initialize({ startOnLoad: true });
-    </script>
-
-</body>
-
-  </body>
-</html>
