@@ -1,5 +1,7 @@
 # buddhism
-ผู้ใดเห็น[ปฏิจจสมุปบาท](https://kietpawpan.github.io/buddism/truth.html) ผู้นั้นเห็นธรรม
+เราตั้งคบเพลิง คือ ธรรม ไว้สำหรับชนภายหลังได้ตรัสรู้ ฯ
+ผู้ใดเห็น[ปฏิจจสมุปบาท](https://kietpawpan.github.io/buddism/truth.html) ผู้นั้นเห็นธรรม ฯ
+ผู้ใดเห็นธรรม ผู้นั้นเห็นเรา ฯ
 
 ```mermaid
 
