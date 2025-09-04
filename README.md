@@ -6,3 +6,4 @@
 - กุศลธรรมก็มี [อกุศลธรรม](https://kietpawpan.github.io/buddism/notGood.html)ก็มี
 - กุศลธรรม คือ [โพธิปักขิยธรรม](https://kietpawpan.github.io/buddism/pothi.html)
 - ลำดับแรกควรเป็นสัทธานุสารี ธัมมานุสารี และบรรลุเป็น[พระโสดาบัน](https://kietpawpan.github.io/buddism/sodaban.html)
+- ตอบแทนคุณ[บิดามารดา](https://kietpawpan.github.io/buddism/parents.html)
