@@ -1,0 +1,147 @@
+/* --- CSS for Vertical Flowchart --- */
+
+body {
+    font-family: 'Sarabun', 'Tahoma', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+.nibbana-path-css {
+    width: 90%;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.nibbana-path-css h2 {
+    text-align: center;
+    color: #004d40;
+    font-weight: 700;
+}
+
+.nibbana-path-css ul {
+    list-style: none;
+    padding: 0;
+    position: relative; /* สำหรับเป็นจุดอ้างอิงของเส้นเชื่อม */
+}
+
+/* เส้นเชื่อมแนวตั้งหลัก */
+.nibbana-path-css > ul::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    bottom: 20px;
+    width: 3px;
+    background: #b0bec5; /* สีเทาอมฟ้า */
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+/* กล่องข้อความ (Node) */
+.nibbana-path-css li.node {
+    position: relative;
+    z-index: 2; /* ให้อยู่ทับเส้น */
+    padding: 12px 20px;
+    background: #ffffff;
+    border: 2px solid #00796b; /* สีเขียว */
+    border-radius: 10px;
+    margin: 50px auto; /* เว้นระยะห่างระหว่าง Node */
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* ลูกศรชี้ลง (▼) ที่อยู่เหนือแต่ละกล่อง */
+.nibbana-path-css li.node::before {
+    content: '▼';
+    position: absolute;
+    top: -32px; /* อยู่เหนือกล่อง */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: #00796b;
+}
+
+/* ไม่แสดงลูกศรสำหรับกล่องแรกสุด */
+.nibbana-path-css li.node:first-child::before {
+    display: none;
+}
+
+/* --- สไตล์พิเศษสำหรับ Node ต่างๆ --- */
+
+.node-base {
+    background: #e0f2f1; /* สีเขียวอ่อน */
+    border-color: #004d40;
+}
+
+.node-goal {
+    background: #fffde7; /* สีเหลืองอ่อน */
+    border-color: #f57f17;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+/* กล่องที่มีรายละเอียดเยอะ (โยนิโสมนสิการ) */
+.node-complex {
+    background: #e3f2fd; /* สีฟ้าอ่อน */
+    border-color: #0277bd;
+    text-align: left;
+}
+.node-complex > strong {
+    display: block;
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #0277bd;
+}
+.node-complex ul {
+    list-style: disc;
+    padding-left: 30px;
+    font-size: 0.9em;
+    margin: 0;
+}
+/* ปิดการใช้งานเส้นเชื่อมภายในกล่อง complex */
+.node-complex ul::before { display: none; }
+.node-complex ul li {
+    background: none; border: none; box-shadow: none;
+    width: 100%;
+    margin: 5px 0; padding: 0;
+    text-align: left;
+}
+.node-complex ul li::before { display: none; }
+
+/* กล่องที่เป็นกลุ่ม (วิโมกข์ 3) */
+.node-group {
+    background: #f3e5f5; /* สีม่วงอ่อน */
+    border-color: #6a1b9a;
+}
+.node-group > span {
+    font-weight: 700;
+    font-size: 1.1em;
+    color: #6a1b9a;
+}
+.sub-nodes {
+    display: flex;
+    flex-wrap: wrap; /* ให้ขึ้นบรรทัดใหม่ได้ในจอเล็ก */
+    justify-content: space-around;
+    list-style: none;
+    padding: 15px 0 0 0;
+    margin: 15px 0 0 0;
+    border-top: 2px dashed #ab47bc;
+}
+/* ปิดการใช้งานเส้นเชื่อมภายในกล่อง group */
+.sub-nodes::before { display: none; }
+.sub-nodes li {
+    background: #fff;
+    border: 1px solid #ce93d8;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 0.9em;
+    width: 30%;
+    min-width: 150px;
+    margin-top: 10px;
+}
+.sub-nodes li::before { display: none; }
