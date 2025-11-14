@@ -8,3 +8,4 @@
 - ลำดับแรกควรเป็นสัทธานุสารี ธัมมานุสารี และบรรลุเป็น[พระโสดาบัน](https://kietpawpan.github.io/buddism/sodaban.html)
 - ตอบแทนคุณ[บิดามารดา](https://kietpawpan.github.io/buddism/parents.html)
 - เดินตาม[แผนที่สู้ความสิ้นสุดแห่งทุกข์](https://kietpawpan.github.io/buddism/map.html)
+- ทางเดิน [นิพฺพาน ปจฺจโย](https://kietpawpan.github.io/buddism/path.html)
